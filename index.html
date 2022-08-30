@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- fontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+        integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- style css -->
+    <link rel="stylesheet" href="css/home.css">
+    <!-- page title -->
+    <title>Fabrika - Buy used cars at the best price</title>
+</head>
+
+<body>
+    <!--*********************************** start navbar ********************************-->
+    <div class="nav-bar fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="209.84" height="54.782"
+                            viewbox="0 0 209.84 54.782">
+                            <defs>
+                                <style>
+                                    .a {
+                                        fill: #00427a;
+                                        fill-rule: evenodd;
+                                    }
+
+                                    .b {
+                                        fill: #ed1c24;
+                                    }
+                                </style>
+                            </defs>
+                            <path class="a"
+                                d="M296.887,34.548c-13.1-1.1-18.955,1.739-25.737,3.072s-25.332,1.507-36.635,2.2c-11.362.637-69.155,1.333-81.154,1.739s-26.2,16.984-26.2,16.984c2.9-2.029,3.942-.87,3.942-.87,3.652-3.42,14.839-6.086,14.839-6.086,10.144-6.261,35.534-8.116,47.533-8.289,12.057-.174,55.127,1.391,68.923,1.739s22.955-5.739,34.026-6.551c7.13-.521,26.259,1.392,27.94,1.739s1.044-.811,2.2-.869c1.159-.116,3.942.695,4.347.464.464-.29,6.087,0,6.087,0S309.987,35.649,296.887,34.548Zm-95.529.463s18.085-11.477,36.635-11.767c32.693-.464,44.634,5.565,45.388,6.55s-.87,2.2-.87,2.2c.87,0,1.333,1.333,1.333,1.333,7.072-.753,38.374,1.739,38.374,1.739s-1.333-1.159-7.825-1.739c-11.246-.985-21.506-5.68-25.737-6.55-4.29-.927-14.2-5.565-39.766-5.739-9.448-.058-18.665.638-26.2,2.609-5.217,1.333-9.274,3.652-13.332,5.333a96.208,96.208,0,0,0-10.666,5.565c-3.768,2.144-6.086,3.478-6.086,3.478,2.492,0,4.463-1.334,6.086-2.2a6.888,6.888,0,0,1,2.667-.812Z"
+                                transform="translate(-127.16 -21.038)" />
+                            <path class="b"
+                                d="M167.969,62.662H155.68v-4.7h17.738V54.14H151.564V75.762h4.116V66.429h12.347V62.662Zm9.68-8.464L166.172,75.82h4.521l2.435-4.637h14.086l2.434,4.637h4.522L182.692,54.2Zm-2.492,13.159,5.043-9.565,4.985,9.565ZM217.3,64.632a5.063,5.063,0,0,0,2.493-4.405,5.468,5.468,0,0,0-1.913-4.348A7.782,7.782,0,0,0,212.6,54.2H195.329V75.82h17.042c5.507,0,8.232-1.971,8.232-5.855A5.691,5.691,0,0,0,217.3,64.632Zm-17.911-6.666h13.39q2.957,0,2.956,2.435a2.281,2.281,0,0,1-.869,1.855,3.513,3.513,0,0,1-2.261.695H199.329V57.966Zm16,13.391a5.531,5.531,0,0,1-3.015.695H199.387V66.835h13.332c2.493,0,3.768.928,3.768,2.725a2.076,2.076,0,0,1-1.1,1.8Zm31.765-10.319a6.425,6.425,0,0,0-1.97-4.985,7.556,7.556,0,0,0-5.333-1.855H222.863V75.82h4.116V67.879h10.434l5.507,7.941h4.7l-5.681-8.231C245.412,66.835,247.151,64.632,247.151,61.038Zm-20.172,3.015V57.966h12c2.667,0,3.942,1.044,3.942,3.13,0,1.971-1.218,2.957-3.71,2.957ZM249.7,75.82h4.116V54.2H249.7ZM301.176,54.2h-5.1L284.888,75.414,273.121,62.488l11.245-8.29H278.28L263.962,64.806V54.2H259.9V75.82h4.116V69.27l5.97-4.406L280.019,75.82h9.216l2.435-4.637H305.7l2.435,4.637h4.521Zm-7.535,13.159,5.043-9.565,4.985,9.565Z"
+                                transform="translate(-127.16 -21.038)" />
+                        </svg>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a style="border-bottom: 1px solid #ed3d29" class="nav-link" aria-current="page"
+                                    href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="sell.html">Sell</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="buy.html">Buy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="aboutUs.html">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact-us.html">Contact us</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <button class="btn" type="submit">
+                                <span>16661</span>
+                                <i class="fas fa-phone"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!--*********************************** end navbar ********************************-->
+    <!--*********************************** start carousel ******************************-->
+    <div class="slider">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/slider1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/slider2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/slider3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!--*********************************** end carousel ********************************-->
+    <!--*********************************** start search ********************************-->
+    <div class="cars-search">
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <p>Select Brand</p>
+                    <div class="select-car-brand">
+                        <div class="custom-select" style="width:100%; border: 1px solid #00427a3d;">
+                            <select id="select_brands" title="brands">
+                                <option value="0"> Select</option>
+                                <option value="">All brands</option>
+                                <option value="Hyundai">Hyundai</option>
+                                <option value="Cherry">Cherry</option>
+                                <option value="CHEVROLET">CHEVROLET</option>
+                                <option value="NISSAN">NISSAN</option>
+                                <option value="Mercedes">Mercedes</option>
+                                <option value="BMW">BMW</option>
+                                <option value="Suzuki">Suzuki</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <p>Select Model</p>
+                    <div class="select-car-brand">
+                        <div class="custom-select" style="width:100%; border: 1px solid #00427a3d;">
+                            <select id="select_models">
+                                <option value="0">Select</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding-top: 32px;" class="col text-center">
+                    <button type="submit">Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--*********************************** end search ********************************-->
+    <!--*********************************** start featured ********************************-->
+    <div class="featured">
+        <div class="container">
+            <h2>Featured
+                <span>Cars</span>
+            </h2>
+            <hr>
+            <div class="row" id="div_cars"></div>
+        </div>
+    </div>
+    <!--*********************************** end featured ********************************-->
+    <!--*********************************** start showAll ********************************-->
+    <div class="show-all text-center">
+        <div class="container">
+            <a href="buy.html">
+                <button>
+
+                    Show All
+                </button>
+            </a>
+            <h2>Browse by
+                <span>Brands</span>
+            </h2>
+            <hr>
+            <div class="car-brands d-flex">
+                <a href="#">
+                    <div class="car-brands-info">
+                        <img src="assets/img/brand1.png" alt="">
+                        <p>1 Car</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="car-brands-info">
+                        <img src="assets/img/brand2.png" alt="">
+                        <p>6 Car</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="car-brands-info">
+                        <img src="assets/img/brand3.png" alt="">
+                        <p>1 Car</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="car-brands-info">
+                        <img src="assets/img/brand4.png" alt="">
+                        <p>7 Car</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="car-brands-info">
+                        <img src="assets/img/brand5.png" alt="">
+                        <p>3 Car</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="car-brands-info">
+                        <img src="assets/img/brand6.png" alt="">
+                        <p>2 Car</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--*********************************** end showAll ********************************-->
+    <!--*********************************** end car-type ********************************-->
+    <div class="car-type">
+        <div class="container">
+            <h2>Browse by Car
+                <span>Type</span>
+            </h2>
+            <hr>
+            <div class="car-type-info d-flex">
+                <a href="buy.html">
+                    <div>
+                        <img src="assets/img/carType1.png" alt="">
+                        <p>Sedan</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div>
+                        <img src="assets/img/carType2.png" alt="">
+                        <p>SUV</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div>
+                        <img src="assets/img/carType3.png" alt="">
+                        <p>4X4</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--*********************************** end car-type ********************************-->
+    <!--*********************************** start why-fabrica ********************************-->
+    <div class="why-fabrica text-center">
+        <div class="container">
+            <h2>Why
+                <span>Fabrika</span>
+            </h2>
+            <hr>
+            <h3>Fabrika is Egypt’s first Multi-branded facility to Buy, Sell, & Trade-in Preowned Cars.</h3>
+            <p class="describtion">Fabrika stocks an excellent selection of high-quality pre-owned cars from all kinds
+                of popular and trusted manufacturers at the best prices. Whether you are looking for a used hatchback or
+                sedan or maybe SUV or 4x4, you will find everything you could possibly need under one roof! Buy a
+                Pre-owned Car as Good as New... You can get peace of mind buying top-quality used cars from a trusted
+                place. All our preowned cars are subject to an intensive quality inspection that overlooks all its
+                aspects. In addition to our well-trained technicians have reconditioned all our displayed cars to meet
+                our quality standards of mechanical, electrical, comfort, and safety conditions.</p>
+            <h3>Sell your old car with confidence...At Fabrika, we buy all car models at fair prices.</h3>
+            <div class="fabrica-Advantages text-center">
+                <div class="row">
+                    <div class="col-md-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="122.07" height="70.525"
+                            viewbox="0 0 122.07 70.525">
+                            <defs>
+                                <style>
+                                    .a {
+                                        fill: #00427a;
+                                    }
+                                </style>
+                            </defs>
+                            <g transform="translate(-910.702 -1568.734)">
+                                <path class="a"
+                                    d="M1031.774,1593.127a3.646,3.646,0,0,1-.141,5.154l-23.451,23.254a3.572,3.572,0,0,1-2.464,1.084,3.67,3.67,0,0,1-2.463-6.257l17-17H959.284a3.7,3.7,0,1,1,0-7.39h60.968l-17-17a3.658,3.658,0,1,1,5.173-5.173l23.229,23.2Q1031.717,1593.067,1031.774,1593.127Z" />
+                                <path class="a"
+                                    d="M911.749,1614.966a3.646,3.646,0,0,1,.042-5.156l23.525-23.229a3.568,3.568,0,0,1,2.463-1.084,3.671,3.671,0,0,1,2.464,6.257l-17.1,16.873h60.968a3.7,3.7,0,0,1,0,7.391H923.147l17,17h0a3.658,3.658,0,1,1-5.173,5.173l-23.205-23.2Z" />
+                            </g>
+                        </svg>
+                        <p class="Trade">Trade-in</p>
+                        <p class="Trade-des">A fast and convenient way to trade in your old car for a new or used one
+                            that is ideal for your needs.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <svg style="height: 72px" xmlns="http://www.w3.org/2000/svg" width="133.009" height="104.872"
+                            viewbox="0 0 133.009 104.872">
+                            <defs>
+                                <style>
+                                    .a {
+                                        fill: #00427a;
+                                    }
+                                </style>
+                            </defs>
+                            <g transform="translate(-343.723 -1552.056)">
+                                <path class="a"
+                                    d="M476.732,1575.252v34.2h0a5.724,5.724,0,0,1-5.747,5.7h-9.108l-40.457,40.125-.591.509a5.744,5.744,0,0,1-3.463,1.145h-49.81a17.1,17.1,0,1,1,.014-34.2h29.221a17,17,0,0,1,.282-23.892l27.707-27.607a5.77,5.77,0,0,1,4.079-1.679h42.152A5.724,5.724,0,0,1,476.732,1575.252Zm-11.468,28.6v-22.9h-33.89l-26.066,25.953a5.787,5.787,0,0,0-.569.55,5.668,5.668,0,0,0,.459,8.048,5.782,5.782,0,0,0,8.115-.456l9.62-9.542a5.771,5.771,0,0,1,9.283,0,5.67,5.67,0,0,1-1.253,7.964l-19.036,18.982a5.768,5.768,0,0,1-4.053,1.679h-40.31a5.7,5.7,0,1,0,.006,11.4h47.436l40.458-40.1a5.768,5.768,0,0,1,4.053-1.679h5.747Z" />
+                                <path class="a"
+                                    d="M358.077,1590.061l-12.647-12.544a5.68,5.68,0,0,1-.039-8.079,5.794,5.794,0,0,1,8.145-.038l8.6,8.5,24.372-24.172h0a5.784,5.784,0,0,1,8.133,0,5.669,5.669,0,0,1,0,8.065l-28.452,28.193a5.828,5.828,0,0,1-8.107.076Z" />
+                            </g>
+                        </svg>
+                        <p class="Hassle">Hassle Free</p>
+                        <p class="Hassle-des">A fast and convenient way to trade in your old car for a new or used one
+                            that is ideal for your needs.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <svg style="height: 74px;" xmlns="http://www.w3.org/2000/svg" width="136.395" height="104.271"
+                            viewbox="0 0 136.395 104.271">
+                            <defs>
+                                <style>
+                                    .a {
+                                        fill: #00427a;
+                                    }
+                                </style>
+                            </defs>
+                            <path class="a"
+                                d="M1595.432,1624.312l14.78-6.094c2.637-1.046,5.3-2.16,7.935-3.32,1.842-.841,3.684-1.023,4.548,1.228s-.637,3.343-2.547,4.139q-15.6,6.457-30.992,12.87c-18.191,7.572-36.382,15.1-54.573,22.738a6.819,6.819,0,0,1-6.344-.25c-12.8-6.526-25.672-12.938-38.5-19.4-1.864-.955-4.115-1.864-2.8-4.547s3.365-1.592,5.366-.546l13.643,6.821c7.89,3.98,15.758,7.982,23.694,11.824a5.475,5.475,0,0,0,3.956.16c8.277-3.366,16.486-6.822,24.74-10.187a2.764,2.764,0,0,0,2.024-2.888V1631.7c-8.823,3.729-17.191,6.958-25.445,10.551a7.321,7.321,0,0,1-6.935-.227c-12.779-6.526-25.627-12.916-38.428-19.4a5.361,5.361,0,0,1-2.524-2.047c-.364-.819-.091-2.8.363-2.956a6.007,6.007,0,0,1,4.23-.2c7.594,3.593,15.075,7.436,22.6,11.211,5.116,2.569,10.187,5.252,15.394,7.685a5.59,5.59,0,0,0,3.979.182c8.3-3.3,16.486-6.776,24.763-10.119a2.773,2.773,0,0,0,2.046-3.228c-.114-1.638,0-3.275,0-5.435-1.319.478-2.319.8-3.3,1.2-7.617,3.161-15.212,6.3-22.739,9.55a6.3,6.3,0,0,1-5.843-.159c-12.984-6.571-25.854-12.961-38.815-19.4-.978-.477-2.229-1.069-2.615-1.933a3.5,3.5,0,0,1,.341-3.229,4,4,0,0,1,3.5-.477c5.32,2.433,10.505,5.139,15.735,7.754,7.617,3.8,15.189,7.686,22.875,11.369a5.8,5.8,0,0,0,4.184,0c7.594-3.024,15.075-6.435,22.738-9.323,3.206-1.228,4.548-2.887,3.866-6.071a24.888,24.888,0,0,1-.159-2.8c-1.228.455-2.274.819-3.275,1.228-7.549,3.138-15.075,6.412-22.738,9.346a7.6,7.6,0,0,1-5.435-.182q-19.782-9.653-39.338-19.715c-1.137-.614-2.66-2.16-2.637-3.206s1.5-2.524,2.8-3.024c28.264-11.96,56.71-23.853,85.11-35.813a6.185,6.185,0,0,1,5.708.25c12.983,6.571,26.126,12.984,39.087,19.578,1.365.682,3.161,2.433,3.161,3.433s-1.887,2.661-3.274,3.275c-6.822,3.069-13.689,6.071-20.67,8.731-2.865,1-4.229,2.456-3.684,5.549a21.892,21.892,0,0,1,0,3.319l4.093-1.637c5.958-2.478,11.961-5,17.9-7.413,1.955-.818,4.229-2.092,5.548.728s-1.16,3.706-3.229,4.548c-6.822,2.8-13.643,5.821-20.465,8.39-2.956,1.183-4.434,2.5-3.843,5.73a23.564,23.564,0,0,1,0,3.775l19.92-8.322,3.41-1.433c1.706-.727,3.343-.727,4.207,1.137s-.068,3.343-1.978,4.139l-17.032,7.117-3.41,1.41C1594.5,1617.627,1594.5,1617.627,1595.432,1624.312Zm-39.77-24.58c-.273-.432-.341-.751-.478-.751-11.074-5.548-22.147-11.1-33.289-16.531a4.367,4.367,0,0,0-3.115.16c-4.957,1.955-9.823,4.07-14.735,6.139l-7.663,3.252c10.255,5.184,20.033,9.868,29.56,15.007a11.1,11.1,0,0,0,11.37.5C1543.2,1604.575,1549.431,1602.324,1555.662,1599.732Zm33.63,25.149c.046-11.074.091-22.148-.136-33.221a4.1,4.1,0,0,0-1.819-2.979c-11.756-6.276-23.58-12.415-35.4-18.532a3.518,3.518,0,0,0-2.547-.409c-7.186,2.91-14.326,5.934-21.875,9.095l3.07,1.592c10.1,5.025,20.055,10.391,30.333,14.939,4.139,1.865,5.048,4.252,5.048,8.436-.182,10.755,0,21.511,0,32.721,7.686-3.184,15.053-6.208,22.352-9.368.546-.251.955-1.5.955-2.274Zm2.024-40.748a2.28,2.28,0,0,0,1.592.2c6.548-2.729,13.142-5.526,20.191-8.505-11.892-5.8-23.261-11.551-34.63-17.167a2.863,2.863,0,0,0-2-.341c-6.3,2.569-12.461,5.23-19.283,8.072,11.8,6.117,22.943,11.938,34.108,17.736Z"
+                                transform="translate(-1486.551 -1552.265)" />
+                        </svg>
+                        <p class="Finance">Finance</p>
+                        <p class="Finance-des">A fast and convenient way to trade in your old car for a new or used one
+                            that is ideal for your needs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--*********************************** end why-fabrica ********************************-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <svg class="logo-svg" xmlns="http://www.w3.org/2000/svg" width="209.84" height="54.782"
+                        viewbox="0 0 209.84 54.782">
+                        <defs>
+                            <style>
+                                .a {
+                                    fill: #00427a;
+                                    fill-rule: evenodd;
+                                }
+
+                                .b {
+                                    fill: #ed1c24;
+                                }
+                            </style>
+                        </defs>
+                        <path class="a"
+                            d="M296.887,34.548c-13.1-1.1-18.955,1.739-25.737,3.072s-25.332,1.507-36.635,2.2c-11.362.637-69.155,1.333-81.154,1.739s-26.2,16.984-26.2,16.984c2.9-2.029,3.942-.87,3.942-.87,3.652-3.42,14.839-6.086,14.839-6.086,10.144-6.261,35.534-8.116,47.533-8.289,12.057-.174,55.127,1.391,68.923,1.739s22.955-5.739,34.026-6.551c7.13-.521,26.259,1.392,27.94,1.739s1.044-.811,2.2-.869c1.159-.116,3.942.695,4.347.464.464-.29,6.087,0,6.087,0S309.987,35.649,296.887,34.548Zm-95.529.463s18.085-11.477,36.635-11.767c32.693-.464,44.634,5.565,45.388,6.55s-.87,2.2-.87,2.2c.87,0,1.333,1.333,1.333,1.333,7.072-.753,38.374,1.739,38.374,1.739s-1.333-1.159-7.825-1.739c-11.246-.985-21.506-5.68-25.737-6.55-4.29-.927-14.2-5.565-39.766-5.739-9.448-.058-18.665.638-26.2,2.609-5.217,1.333-9.274,3.652-13.332,5.333a96.208,96.208,0,0,0-10.666,5.565c-3.768,2.144-6.086,3.478-6.086,3.478,2.492,0,4.463-1.334,6.086-2.2a6.888,6.888,0,0,1,2.667-.812Z"
+                            transform="translate(-127.16 -21.038)" />
+                        <path class="b"
+                            d="M167.969,62.662H155.68v-4.7h17.738V54.14H151.564V75.762h4.116V66.429h12.347V62.662Zm9.68-8.464L166.172,75.82h4.521l2.435-4.637h14.086l2.434,4.637h4.522L182.692,54.2Zm-2.492,13.159,5.043-9.565,4.985,9.565ZM217.3,64.632a5.063,5.063,0,0,0,2.493-4.405,5.468,5.468,0,0,0-1.913-4.348A7.782,7.782,0,0,0,212.6,54.2H195.329V75.82h17.042c5.507,0,8.232-1.971,8.232-5.855A5.691,5.691,0,0,0,217.3,64.632Zm-17.911-6.666h13.39q2.957,0,2.956,2.435a2.281,2.281,0,0,1-.869,1.855,3.513,3.513,0,0,1-2.261.695H199.329V57.966Zm16,13.391a5.531,5.531,0,0,1-3.015.695H199.387V66.835h13.332c2.493,0,3.768.928,3.768,2.725a2.076,2.076,0,0,1-1.1,1.8Zm31.765-10.319a6.425,6.425,0,0,0-1.97-4.985,7.556,7.556,0,0,0-5.333-1.855H222.863V75.82h4.116V67.879h10.434l5.507,7.941h4.7l-5.681-8.231C245.412,66.835,247.151,64.632,247.151,61.038Zm-20.172,3.015V57.966h12c2.667,0,3.942,1.044,3.942,3.13,0,1.971-1.218,2.957-3.71,2.957ZM249.7,75.82h4.116V54.2H249.7ZM301.176,54.2h-5.1L284.888,75.414,273.121,62.488l11.245-8.29H278.28L263.962,64.806V54.2H259.9V75.82h4.116V69.27l5.97-4.406L280.019,75.82h9.216l2.435-4.637H305.7l2.435,4.637h4.521Zm-7.535,13.159,5.043-9.565,4.985,9.565Z"
+                            transform="translate(-127.16 -21.038)" />
+                    </svg>
+                    <div class="social d-flex">
+                        <p>Follow us</p>
+                        <div class="social-icons d-flex">
+                            <a href="#">
+                                <i class="fa-brands fa-youtube fa-xl"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-instagram fa-xl"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-facebook-f fa-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="call-us d-flex">
+                        <p>Call us</p>
+                        <a href="#">
+                            <span>16661</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="menue-information d-flex">
+                        <div class="main-menues">
+                            <a href="#">
+                                <h4>Main Menu</h4>
+                            </a>
+                            <a href="#">
+                                <p>Home</p>
+                            </a>
+                            <a href="#">
+                                <p>Sell your car</p>
+                            </a>
+                            <a href="#">
+                                <p>Buy your car</p>
+                            </a>
+                        </div>
+                        <div class="information-menues">
+                            <a href="#">
+                                <h4>Information</h4>
+                            </a>
+                            <a href="#">
+                                <p>About us</p>
+                            </a>
+                            <a href="#">
+                                <p>Contact us</p>
+                            </a>
+                            <a href="#">
+                                <p>Find us</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="Newsletter">Newsletter</h4>
+                    <p>By subscribing to our company newsletter you will always be up-to-date on our latest promotions,
+                        deals and vehicle inventory</p>
+                    <form>
+                        <div class="mb-3">
+                            <input type="email" class="form-control " value="Email" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" />
+                            <button type="submit" class="btn btn-primary">Sign up</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!--*********************************** end footer ********************************-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="js/custom-select-element.js"></script>
+
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/crud.js"></script>
+    <script src="js/home.js"></script>
+</body>
+
+</html>

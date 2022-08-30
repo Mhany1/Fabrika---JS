@@ -1,0 +1,247 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "attributes": {
+        "name": "Hyundai",
+        "createdAt": "2022-06-11T20:22:38.318Z",
+        "updatedAt": "2022-06-11T20:22:40.314Z",
+        "publishedAt": "2022-06-11T20:22:40.312Z",
+        "cars": {
+          "data": [
+            {
+              "id": 15,
+              "attributes": {
+                "model": "ELANTRA CN7",
+                "production": "2021",
+                "price": 475000,
+                "distance": 24369,
+                "color": "Grey",
+                "createdAt": "2022-06-11T23:20:56.920Z",
+                "updatedAt": "2022-06-11T23:20:56.920Z",
+                "publishedAt": "2022-06-11T23:20:56.917Z",
+                "is_autogear": true,
+                "size": "SEDAN",
+                "located_in": "SMART PLUS",
+                "capacity": 1.6,
+                "desc": null,
+                "is_electric": false
+              }
+            },
+            {
+              "id": 17,
+              "attributes": {
+                "model": "Tucson",
+                "production": "2019",
+                "price": 580000,
+                "distance": 97347,
+                "color": "Grey",
+                "createdAt": "2022-06-11T23:35:16.893Z",
+                "updatedAt": "2022-06-11T23:35:16.893Z",
+                "publishedAt": "2022-06-11T23:35:16.890Z",
+                "is_autogear": true,
+                "size": "SEDAN",
+                "located_in": "Qattamia",
+                "capacity": 1.6,
+                "desc": null,
+                "is_electric": false
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "name": "Chery",
+        "createdAt": "2022-06-11T20:22:53.147Z",
+        "updatedAt": "2022-06-11T20:23:02.672Z",
+        "publishedAt": "2022-06-11T20:23:02.670Z",
+        "cars": {
+          "data": [
+            {
+              "id": 16,
+              "attributes": {
+                "model": "ARRIZO 5",
+                "production": "2020",
+                "price": 235000,
+                "distance": 25777,
+                "color": "Blue",
+                "createdAt": "2022-06-11T23:31:50.476Z",
+                "updatedAt": "2022-06-11T23:31:50.476Z",
+                "publishedAt": "2022-06-11T23:31:50.470Z",
+                "is_autogear": true,
+                "size": "SEDAN",
+                "located_in": "Qattamia",
+                "capacity": 1.5,
+                "desc": null,
+                "is_electric": false
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "name": "CHEVROLET",
+        "createdAt": "2022-06-11T20:23:58.420Z",
+        "updatedAt": "2022-06-11T20:23:59.430Z",
+        "publishedAt": "2022-06-11T20:23:59.429Z",
+        "cars": { "data": [] }
+      }
+    },
+    {
+      "id": 6,
+      "attributes": {
+        "name": "NISSAN",
+        "createdAt": "2022-06-11T20:24:11.914Z",
+        "updatedAt": "2022-06-11T20:24:12.789Z",
+        "publishedAt": "2022-06-11T20:24:12.787Z",
+        "cars": {
+          "data": [
+            {
+              "id": 22,
+              "attributes": {
+                "model": "Sunny",
+                "production": "2016",
+                "price": 150000,
+                "distance": 104232,
+                "color": "Red",
+                "createdAt": "2022-06-11T23:41:32.889Z",
+                "updatedAt": "2022-06-11T23:41:32.889Z",
+                "publishedAt": "2022-06-11T23:41:32.886Z",
+                "is_autogear": true,
+                "size": "SEDAN",
+                "located_in": "Qattamia",
+                "capacity": 1.5,
+                "desc": null,
+                "is_electric": false
+              }
+            },
+            {
+              "id": 20,
+              "attributes": {
+                "model": "Sentra",
+                "production": "2018",
+                "price": 280000,
+                "distance": 108731,
+                "color": "Red",
+                "createdAt": "2022-06-11T23:38:38.048Z",
+                "updatedAt": "2022-06-11T23:38:38.048Z",
+                "publishedAt": "2022-06-11T23:38:38.046Z",
+                "is_autogear": true,
+                "size": "SEDAN",
+                "located_in": "Qattamia",
+                "capacity": 1.6,
+                "desc": null,
+                "is_electric": false
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 7,
+      "attributes": {
+        "name": "Mercedes",
+        "createdAt": "2022-06-11T23:00:58.389Z",
+        "updatedAt": "2022-06-11T23:00:59.145Z",
+        "publishedAt": "2022-06-11T23:00:59.143Z",
+        "cars": {
+          "data": [
+            {
+              "id": 18,
+              "attributes": {
+                "model": "B200",
+                "production": "2013",
+                "price": 340000,
+                "distance": 96609,
+                "color": "Silver",
+                "createdAt": "2022-06-11T23:36:23.043Z",
+                "updatedAt": "2022-06-11T23:36:23.043Z",
+                "publishedAt": "2022-06-11T23:36:23.042Z",
+                "is_autogear": true,
+                "size": "SEDAN",
+                "located_in": "Qattamia",
+                "capacity": 1.6,
+                "desc": null,
+                "is_electric": false
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 8,
+      "attributes": {
+        "name": "BMW",
+        "createdAt": "2022-06-11T23:01:16.469Z",
+        "updatedAt": "2022-06-11T23:01:17.234Z",
+        "publishedAt": "2022-06-11T23:01:17.232Z",
+        "cars": {
+          "data": [
+            {
+              "id": 19,
+              "attributes": {
+                "model": "316",
+                "production": "2010",
+                "price": 240000,
+                "distance": 154000,
+                "color": "Black",
+                "createdAt": "2022-06-11T23:37:20.446Z",
+                "updatedAt": "2022-06-11T23:37:20.446Z",
+                "publishedAt": "2022-06-11T23:37:20.444Z",
+                "is_autogear": true,
+                "size": "4x4",
+                "located_in": "Qattamia",
+                "capacity": 1.6,
+                "desc": null,
+                "is_electric": false
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 9,
+      "attributes": {
+        "name": "Suzuki",
+        "createdAt": "2022-06-11T23:39:33.252Z",
+        "updatedAt": "2022-06-11T23:39:34.123Z",
+        "publishedAt": "2022-06-11T23:39:34.120Z",
+        "cars": {
+          "data": [
+            {
+              "id": 21,
+              "attributes": {
+                "model": "Espresso",
+                "production": "2021",
+                "price": 180000,
+                "distance": 1723,
+                "color": "Red",
+                "createdAt": "2022-06-11T23:40:38.690Z",
+                "updatedAt": "2022-06-11T23:40:38.690Z",
+                "publishedAt": "2022-06-11T23:40:38.687Z",
+                "is_autogear": true,
+                "size": "SEDAN",
+                "located_in": "Cairo Ismailia Desert Road",
+                "capacity": 1,
+                "desc": null,
+                "is_electric": false
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "meta": {
+    "pagination": { "page": 1, "pageSize": 25, "pageCount": 1, "total": 7 }
+  }
+}

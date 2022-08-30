@@ -1,0 +1,263 @@
+/**
+ * /* style my web site
+ *
+ * @format
+ */
+/* main colors [#00427a] and [#ed3d29] */
+
+/* start body style */
+body {
+  margin-top: 86px;
+}
+/* end body style */
+/* start scroll style */
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px grey;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00427a;
+  border-radius: 5px;
+}
+/* end scrollstyle */
+
+/* ***************************************************************** */
+/* ***************************************************************** */
+/* start navbar */
+.nav-bar {
+  background: white;
+  padding-bottom: 10px;
+  box-shadow: 0 3px 5px #80808029;
+  height: 85px;
+}
+.nav-bar .navbar .navbar-collapse {
+  margin-top: 13px;
+}
+.nav-bar .navbar .navbar-collapse .me-auto {
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+@media (max-width: 991px) {
+  .nav-bar .navbar .navbar-collapse form button {
+    margin: 0 0 10px 10px;
+  }
+  .nav-bar .navbar .navbar-collapse {
+    background-color: white;
+    box-shadow: inset 0 0 2px grey;
+  }
+}
+.nav-bar .navbar .navbar-collapse ul li a {
+  color: #00427a;
+  font-size: 18px;
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  border-bottom: 1px solid transparent;
+}
+.nav-bar .navbar .navbar-collapse ul li a:hover {
+  transition: all 0.5s ease-in-out;
+  border-bottom: 1px solid #ed3d29;
+}
+.nav-bar .navbar .navbar-collapse form button {
+  background-color: #ed3d29;
+  border-radius: 8px;
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+}
+.nav-bar .navbar .navbar-collapse form button:focus {
+  box-shadow: 0 0 0 0.25rem rgb(255 255 255 / 25%);
+}
+.nav-bar .navbar .navbar-collapse form button:hover {
+  background-color: #ed1c24;
+}
+/* end navbar */
+
+/* start why-fabrica */
+.why-fabrica h2 {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+.why-fabrica h2 span {
+  color: #ed1c24;
+}
+.why-fabrica hr {
+  color: #ed1c24;
+  width: 300px;
+  margin-inline: auto;
+  opacity: 1;
+  margin-bottom: 40px;
+  border: 1px solid rgb(237, 28, 36);
+}
+.why-fabrica h3 {
+  font-weight: bolder;
+  font-size: 19px;
+  color: grey;
+  font-family: Lato, Cairo;
+  margin-bottom: 20px;
+}
+.why-fabrica .describtion {
+  font-size: 18px;
+  color: grey;
+  font-family: Lato, Cairo;
+  font-weight: 400;
+  line-height: 1.5715;
+}
+.why-fabrica .fabrica-Advantages {
+  margin-top: 92px;
+}
+@media (max-width: 768px) {
+  .why-fabrica .fabrica-Advantages svg {
+    margin-top: 20px;
+  }
+}
+.why-fabrica .fabrica-Advantages .Trade,
+.why-fabrica .fabrica-Advantages .Hassle,
+.why-fabrica .fabrica-Advantages .Finance {
+  font-size: 22px;
+  margin-top: 15px;
+  font-weight: 700;
+  font-family: Lato, Cairo;
+}
+.why-fabrica .fabrica-Advantages .Trade-des,
+.why-fabrica .fabrica-Advantages .Hassle-des,
+.why-fabrica .fabrica-Advantages .Finance-des {
+  font-size: 18px;
+  color: #999;
+  font-family: Lato, Cairo;
+  margin: auto;
+  width: 90%;
+}
+/* end why-fabrica */
+/*start About fabrica */
+.about-fabrica {
+  margin-top: 90px;
+}
+.about-fabrica h2 {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+.about-fabrica h2 span {
+  color: #ed1c24;
+}
+.about-fabrica hr {
+  color: #ed1c24;
+  width: 300px;
+  margin-inline: auto;
+  opacity: 1;
+  margin-bottom: 40px;
+  border: 1px solid rgb(237, 28, 36);
+}
+.about-fabrica .car-marka2 {
+  justify-content: space-evenly;
+}
+.about-fabrica .car-marka2 a svg {
+  width: 100px;
+  height: 70px;
+}
+/* end about fabrica */
+/* start footer */
+footer {
+  margin-top: 100px;
+  background: #f8f8f8;
+  padding: 15px;
+}
+footer p {
+  color: #808080;
+  font-size: 16px;
+}
+footer .logo-svg {
+  width: 284px;
+  height: 85px;
+}
+footer .social {
+  margin-top: 30px;
+}
+footer .social .social-icons svg {
+  color: #00427a;
+  margin: 1px 0 0 45px;
+}
+footer .call-us {
+  margin-top: 10px;
+}
+footer .call-us span {
+  margin: 0 0 0 66px;
+  color: #0c3f6a;
+  font-size: 20px;
+  font-weight: bold;
+}
+footer .menue-information {
+  justify-content: space-around;
+}
+footer .menue-information h4,
+footer .Newsletter {
+  color: #022f47 !important;
+  font-size: 20px;
+  font-weight: 500 !important;
+  margin-bottom: 30px;
+}
+footer .form-control {
+  display: inline;
+  width: 70%;
+  border-radius: 0;
+  color: #00427a;
+  margin-top: 10px;
+}
+footer .form-control:focus,
+footer .form-control:hover {
+  color: #00427a;
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem rgb(13 110 253 / 25%);
+}
+footer form .btn {
+  background-color: #00427a;
+  border-color: #00427a;
+  margin-top: -4px;
+  margin-left: -5px;
+  width: 29%;
+}
+footer a {
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  footer .col-md-4 {
+    margin-top: 30px;
+  }
+  footer .social {
+    justify-content: space-evenly;
+  }
+  footer .call-us {
+    justify-content: space-around;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  footer .social .social-icons svg {
+    margin: 1px 0 0 35px;
+  }
+  footer .logo-svg {
+    width: 224px;
+    height: 85px;
+  }
+  footer form .btn {
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 40%;
+  }
+  footer .form-control {
+    width: 100%;
+  }
+}
+/* end footer */
